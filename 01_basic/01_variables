@@ -1,1 +1,16 @@
 console.log("Hello Madhu");
+const accountId = 144553
+let accountEmail = "madhu@gmail.com"
+var accountPw = "12345"
+accountCity = "Jaipur" // we can but dont declare like
+let accountState; //give undefined
+
+// accountId = 2
+// console.log(accountId); //not allowed
+accountEmail ="hc@gmail.com"
+accountPw = "212121"
+accountCity = "Bangalore"
+
+/* dont use var */
+
+console.table([accountId,accountEmail,accountPw,accountCity,accountState])
